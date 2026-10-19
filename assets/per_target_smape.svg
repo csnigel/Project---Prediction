@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="602" viewBox="0 0 1100 602">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#202124}.title{font-size:26px;font-weight:600}.label{font-size:15px}.axis{font-size:13px;fill:#5f6368}.legend{font-size:14px}</style>
+<text x="330" y="42" class="title">Final model error by target</text>
+<line x1="330.0" y1="83" x2="330.0" y2="527" stroke="#e5e7eb"/>
+<text x="330.0" y="550" text-anchor="middle" class="axis">0</text>
+<line x1="470.0" y1="83" x2="470.0" y2="527" stroke="#e5e7eb"/>
+<text x="470.0" y="550" text-anchor="middle" class="axis">8</text>
+<line x1="610.0" y1="83" x2="610.0" y2="527" stroke="#e5e7eb"/>
+<text x="610.0" y="550" text-anchor="middle" class="axis">16</text>
+<line x1="750.0" y1="83" x2="750.0" y2="527" stroke="#e5e7eb"/>
+<text x="750.0" y="550" text-anchor="middle" class="axis">24</text>
+<line x1="890.0" y1="83" x2="890.0" y2="527" stroke="#e5e7eb"/>
+<text x="890.0" y="550" text-anchor="middle" class="axis">32</text>
+<line x1="1030.0" y1="83" x2="1030.0" y2="527" stroke="#e5e7eb"/>
+<text x="1030.0" y="550" text-anchor="middle" class="axis">40</text>
+<text x="316" y="124.0" text-anchor="end" class="label">Total assets</text>
+<rect x="330" y="107.0" width="16.8" height="24" rx="3" fill="#4C78A8"/>
+<text x="353.8" y="129.0" class="axis">0.97</text>
+<text x="316" y="172.0" text-anchor="end" class="label">Operating expenses</text>
+<rect x="330" y="155.0" width="29.6" height="24" rx="3" fill="#4C78A8"/>
+<text x="366.6" y="177.0" class="axis">1.71</text>
+<text x="316" y="220.0" text-anchor="end" class="label">Total liabilities</text>
+<rect x="330" y="203.0" width="47.4" height="24" rx="3" fill="#4C78A8"/>
+<text x="384.4" y="225.0" class="axis">2.74</text>
+<text x="316" y="268.0" text-anchor="end" class="label">Stockholders&#x27; equity</text>
+<rect x="330" y="251.0" width="52.3" height="24" rx="3" fill="#4C78A8"/>
+<text x="389.3" y="273.0" class="axis">3.02</text>
+<text x="316" y="316.0" text-anchor="end" class="label">Revenues</text>
+<rect x="330" y="299.0" width="82.7" height="24" rx="3" fill="#4C78A8"/>
+<text x="419.7" y="321.0" class="axis">4.78</text>
+<text x="316" y="364.0" text-anchor="end" class="label">Cost of revenues</text>
+<rect x="330" y="347.0" width="91.0" height="24" rx="3" fill="#4C78A8"/>
+<text x="428.0" y="369.0" class="axis">5.26</text>
+<text x="316" y="412.0" text-anchor="end" class="label">Gross profit</text>
+<rect x="330" y="395.0" width="277.6" height="24" rx="3" fill="#4C78A8"/>
+<text x="614.6" y="417.0" class="axis">16.04</text>
+<text x="316" y="460.0" text-anchor="end" class="label">EBITDA</text>
+<rect x="330" y="443.0" width="611.8" height="24" rx="3" fill="#4C78A8"/>
+<text x="948.8" y="465.0" class="axis">35.35</text>
+<text x="316" y="508.0" text-anchor="end" class="label">Operating income</text>
+<rect x="330" y="491.0" width="648.1" height="24" rx="3" fill="#4C78A8"/>
+<text x="985.1" y="513.0" class="axis">37.45</text>
+<rect x="330" y="58" width="13" height="13" rx="2" fill="#4C78A8"/>
+<text x="349" y="70" class="legend">Holdout sMAPE</text>
+<text x="680.0" y="584" text-anchor="middle" class="axis">Holdout sMAPE</text>
+</svg>

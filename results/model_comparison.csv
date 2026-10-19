@@ -1,0 +1,12 @@
+approach,development_cv_smape,holdout_smape
+Naive mean,135.72,135.84
+Carry Q1 forward,47.34,47.35
+Multi-output network with identity penalty,16.61,16.46
+Network with sMAPE loss,13.17,13.19
+GRU sequence model,13.28,13.19
+Gradient-boosted trees,13.43,13.13
+Correction network with L1 loss,12.86,12.78
+Quantile network,12.03,11.99
+Quantile network with tuned spread,12.03,11.92
+Final selected model,11.97,11.93
+

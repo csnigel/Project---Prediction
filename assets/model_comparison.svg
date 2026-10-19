@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="602" viewBox="0 0 1100 602">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#202124}.title{font-size:26px;font-weight:600}.label{font-size:15px}.axis{font-size:13px;fill:#5f6368}.legend{font-size:14px}</style>
+<text x="330" y="42" class="title">Shared model comparison</text>
+<line x1="330.0" y1="83" x2="330.0" y2="527" stroke="#e5e7eb"/>
+<text x="330.0" y="550" text-anchor="middle" class="axis">0</text>
+<line x1="470.0" y1="83" x2="470.0" y2="527" stroke="#e5e7eb"/>
+<text x="470.0" y="550" text-anchor="middle" class="axis">10</text>
+<line x1="610.0" y1="83" x2="610.0" y2="527" stroke="#e5e7eb"/>
+<text x="610.0" y="550" text-anchor="middle" class="axis">20</text>
+<line x1="750.0" y1="83" x2="750.0" y2="527" stroke="#e5e7eb"/>
+<text x="750.0" y="550" text-anchor="middle" class="axis">31</text>
+<line x1="890.0" y1="83" x2="890.0" y2="527" stroke="#e5e7eb"/>
+<text x="890.0" y="550" text-anchor="middle" class="axis">41</text>
+<line x1="1030.0" y1="83" x2="1030.0" y2="527" stroke="#e5e7eb"/>
+<text x="1030.0" y="550" text-anchor="middle" class="axis">51</text>
+<text x="316" y="124.0" text-anchor="end" class="label">Carry Q1 forward</text>
+<rect x="330" y="102.5" width="648.0" height="15" rx="3" fill="#4C78A8"/>
+<text x="985.0" y="115.5" class="axis">47.34</text>
+<rect x="330" y="120.5" width="648.1" height="15" rx="3" fill="#F58518"/>
+<text x="985.1" y="133.5" class="axis">47.35</text>
+<text x="316" y="172.0" text-anchor="end" class="label">Multi-output network with identity penalty</text>
+<rect x="330" y="150.5" width="227.4" height="15" rx="3" fill="#4C78A8"/>
+<text x="564.4" y="163.5" class="axis">16.61</text>
+<rect x="330" y="168.5" width="225.3" height="15" rx="3" fill="#F58518"/>
+<text x="562.3" y="181.5" class="axis">16.46</text>
+<text x="316" y="220.0" text-anchor="end" class="label">Network with sMAPE loss</text>
+<rect x="330" y="198.5" width="180.3" height="15" rx="3" fill="#4C78A8"/>
+<text x="517.3" y="211.5" class="axis">13.17</text>
+<rect x="330" y="216.5" width="180.6" height="15" rx="3" fill="#F58518"/>
+<text x="517.6" y="229.5" class="axis">13.19</text>
+<text x="316" y="268.0" text-anchor="end" class="label">GRU sequence model</text>
+<rect x="330" y="246.5" width="181.8" height="15" rx="3" fill="#4C78A8"/>
+<text x="518.8" y="259.5" class="axis">13.28</text>
+<rect x="330" y="264.5" width="180.6" height="15" rx="3" fill="#F58518"/>
+<text x="517.6" y="277.5" class="axis">13.19</text>
+<text x="316" y="316.0" text-anchor="end" class="label">Gradient-boosted trees</text>
+<rect x="330" y="294.5" width="183.8" height="15" rx="3" fill="#4C78A8"/>
+<text x="520.8" y="307.5" class="axis">13.43</text>
+<rect x="330" y="312.5" width="179.7" height="15" rx="3" fill="#F58518"/>
+<text x="516.7" y="325.5" class="axis">13.13</text>
+<text x="316" y="364.0" text-anchor="end" class="label">Correction network with L1 loss</text>
+<rect x="330" y="342.5" width="176.0" height="15" rx="3" fill="#4C78A8"/>
+<text x="513.0" y="355.5" class="axis">12.86</text>
+<rect x="330" y="360.5" width="174.9" height="15" rx="3" fill="#F58518"/>
+<text x="511.9" y="373.5" class="axis">12.78</text>
+<text x="316" y="412.0" text-anchor="end" class="label">Quantile network</text>
+<rect x="330" y="390.5" width="164.7" height="15" rx="3" fill="#4C78A8"/>
+<text x="501.7" y="403.5" class="axis">12.03</text>
+<rect x="330" y="408.5" width="164.1" height="15" rx="3" fill="#F58518"/>
+<text x="501.1" y="421.5" class="axis">11.99</text>
+<text x="316" y="460.0" text-anchor="end" class="label">Quantile network with tuned spread</text>
+<rect x="330" y="438.5" width="164.7" height="15" rx="3" fill="#4C78A8"/>
+<text x="501.7" y="451.5" class="axis">12.03</text>
+<rect x="330" y="456.5" width="163.2" height="15" rx="3" fill="#F58518"/>
+<text x="500.2" y="469.5" class="axis">11.92</text>
+<text x="316" y="508.0" text-anchor="end" class="label">Final selected model</text>
+<rect x="330" y="486.5" width="163.9" height="15" rx="3" fill="#4C78A8"/>
+<text x="500.9" y="499.5" class="axis">11.97</text>
+<rect x="330" y="504.5" width="163.3" height="15" rx="3" fill="#F58518"/>
+<text x="500.3" y="517.5" class="axis">11.93</text>
+<rect x="330" y="58" width="13" height="13" rx="2" fill="#4C78A8"/>
+<text x="349" y="70" class="legend">Development CV</text>
+<rect x="510" y="58" width="13" height="13" rx="2" fill="#F58518"/>
+<text x="529" y="70" class="legend">Holdout</text>
+<text x="680.0" y="584" text-anchor="middle" class="axis">Average sMAPE (lower is better)</text>
+</svg>

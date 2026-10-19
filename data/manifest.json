@@ -1,0 +1,35 @@
+{
+  "version": "data-v1",
+  "description": "Synthetic quarterly financial statement prediction data",
+  "files": [
+    {
+      "name": "train.csv",
+      "bytes": 368984558,
+      "rows": 100000,
+      "columns": 212,
+      "sha256": "A8293B88337C5D5E6D926FBC91D046DCD072BFBE5E5339EA0180B452A510D750"
+    },
+    {
+      "name": "train2.csv",
+      "bytes": 184505014,
+      "rows": 50000,
+      "columns": 212,
+      "sha256": "784D300572DD29D98176FB105DE395AFB3BF7EE41D3B0F554D7319BE7A51D853"
+    },
+    {
+      "name": "test_individual.csv",
+      "bytes": 176156305,
+      "rows": 50000,
+      "columns": 203,
+      "sha256": "EE151F70C2C0AC1AA37A2381B137C8FCD65AC5BEF5160BFBD0D57338CCA09D68"
+    },
+    {
+      "name": "test_final.csv",
+      "bytes": 176172130,
+      "rows": 50000,
+      "columns": 203,
+      "sha256": "88CE93EE55EF20AF4EEC9EC6076F84852F2C71FCBDCC41DB4CA44CE9F91077C0"
+    }
+  ]
+}
+
