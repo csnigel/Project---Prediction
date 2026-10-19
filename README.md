@@ -47,15 +47,15 @@ tests/         Lightweight correctness tests
 
 The synthetic dataset consists of four CSV files totaling approximately 864 MB. They are intentionally excluded from Git history because every file exceeds GitHub's recommended regular-Git file size and three exceed its 100 MiB hard limit.
 
-After the files are uploaded to a GitHub Release tagged `data-v1`, download them with:
+Download the files from the [`data-v1` release](https://github.com/csnigel/Project---Prediction/releases/tag/data-v1), or retrieve and verify all four files from the command line:
 
 ```bash
 python scripts/download_data.py \
-  --base-url https://github.com/OWNER/REPOSITORY/releases/download/data-v1
+  --base-url https://github.com/csnigel/Project---Prediction/releases/download/data-v1
 python scripts/verify_data.py
 ```
 
-See [data/README.md](data/README.md) for the release-upload workflow and verified checksums.
+See [data/README.md](data/README.md) for the dataset inventory and verification details.
 
 ## Environment
 
